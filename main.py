@@ -6,6 +6,7 @@ from drivers import driver_management
 from driving_hours import driving_hours_management
 from vehicle_checks import vehicle_checks_management
 from compliance_reminders import compliance_reminders_management
+from incident_logging import incident_logging_management
 
 
 def main():
@@ -32,7 +33,7 @@ def main():
             vehicle_checks_management()
 
         elif choice == "4":
-            print("Incident Logging selected")
+            incident_logging_management()
 
         elif choice == "5":
             compliance_reminders_management()
