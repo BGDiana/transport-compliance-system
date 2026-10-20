@@ -5,6 +5,8 @@ import csv
 from drivers import driver_management
 from driving_hours import driving_hours_management
 from vehicle_checks import vehicle_checks_management
+from compliance_reminders import compliance_reminders_management
+
 
 def main():
     while True:
@@ -33,7 +35,7 @@ def main():
             print("Incident Logging selected")
 
         elif choice == "5":
-            print("Compliance Reminders selected")
+            compliance_reminders_management()
 
         elif choice == "6":
             print("Exiting the application. Goodbye!")
