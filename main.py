@@ -4,6 +4,7 @@ import csv
 
 from drivers import driver_management
 from driving_hours import driving_hours_management
+from vehicle_checks import vehicle_checks_management
 
 def main():
     while True:
@@ -26,7 +27,7 @@ def main():
             driving_hours_management()
 
         elif choice == "3":
-            print("Vehicle Checks selected")
+            vehicle_checks_management()
 
         elif choice == "4":
             print("Incident Logging selected")
