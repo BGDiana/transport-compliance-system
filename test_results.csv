@@ -1,0 +1,17 @@
+Test ID,Module,Test Action,Expected Result,Actual Result,Status
+FT-002,Driver Management,Reject duplicate licence test2,Duplicate licence rejected,Duplicate licence rejected,Pass
+FT-003,Driver Management,Reject invalid phone number,Invalid phone number rejected,Invalid phone number rejected,Pass
+FT-004,Driving Hours,Record and retrieve 8 driving hours,Record saved and displayed correctly,Record saved and displayed correctly,Pass
+FT-005,Driving Hours,Check 11-hour daily total,Warning displayed above 10 hours,11 hours detected and warning displayed,Pass
+FT-006,Vehicle Checks,Record vehicle inspection with no defects,Inspection saved correctly,Inspection saved correctly,Pass
+FT-006,Vehicle Checks,Record vehicle check without defects,Vehicle check saved correctly,Vehicle check saved correctly,Pass
+FT-007,Vehicle Checks,Record and retrieve vehicle defect,Defect saved and displayed in history,Defect saved and displayed in history,Pass
+FT-008,Incident Logging,Record and retrieve incident,Incident saved and displayed with Open status,Incident saved and displayed with Open status,Pass
+FT-009,Incident Logging,Close incident and verify status,Status changes to Closed and incident disappears from Open list,Status changed to Closed and incident removed from Open list,Pass
+FT-010,Compliance Reminders,Identify overdue MOT reminder,Reminder saved and marked Overdue,Reminder saved and marked Overdue,Pass
+FT-010,Compliance Reminders,Identify overdue MOT reminder,Reminder saved and marked Overdue,Reminder saved and marked Overdue,Pass
+FT-012,CSV Data Storage,Verify driver data persists after restart,Previously saved driver remains available,Previously saved driver remains available,Pass
+FT-013,CSV Data Storage,Verify driving hours persist after restart,Previously saved driving hours remain available,Previously saved driving hours remain available,Pass
+FT-014,CSV Data Storage,Verify vehicle checks persist after restart,Inspection and defect records remain available,Inspection and defect records remain available,Pass
+FT-015,CSV Data Storage,Verify incident status persists after restart,Incident remains saved with Closed status,Incident remains saved with Closed status,Pass
+FT-016,CSV Data Storage,Verify compliance reminders persist after restart,Both saved reminders remain available,Both saved reminders remain available,Pass
